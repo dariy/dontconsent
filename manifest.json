@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Do not consent",
+  "version": "0.1",
+  "description": "Turns off all switches with \"Legitimate interest\" in Consent Form.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": {
+      "16": "cross16.png",
+      "48": "cross48.png",
+      "128": "cross128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "homepage_url": "https://github.com/dariy/dontconsent/"
+}
